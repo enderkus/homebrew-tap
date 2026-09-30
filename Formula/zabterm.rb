@@ -1,28 +1,28 @@
 class Zabterm < Formula
   desc "Beautiful terminal UI for Zabbix"
   homepage "https://github.com/enderkus/zabterm"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/enderkus/zabterm/releases/download/v0.1.1/zabterm-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "725df4cb6e016de691b6c000b3b060582b005952762dc46cc33ac1b5f3090a97"
+      url "https://github.com/enderkus/zabterm/releases/download/v0.1.2/zabterm-v0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "32d0670454a73d42f637ba9ec9743d54f428612aeaf2710dc0781cb8617918c1"
     end
     on_intel do
-      url "https://github.com/enderkus/zabterm/releases/download/v0.1.1/zabterm-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "e04ed75509a7e6e6da5a1f6f618a67322ce54065d7633f1b8d072020341517c8"
+      url "https://github.com/enderkus/zabterm/releases/download/v0.1.2/zabterm-v0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "2ee19bd19acdcd23039681f630678aec990dce41f23144b85f448e4e01ce0d0d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/enderkus/zabterm/releases/download/v0.1.1/zabterm-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4948182bf2651211af89da9baad506ebe6f3166fd1085ed68d9941524f4877ba"
+      url "https://github.com/enderkus/zabterm/releases/download/v0.1.2/zabterm-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b4a9eab1df77f74e9740e747f0ef4b0baa082f5eb02614ab62812f10e2000e0f"
     end
     on_intel do
-      url "https://github.com/enderkus/zabterm/releases/download/v0.1.1/zabterm-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2b911a595c68d27b80c968c1138d389241b73e03f1ada82866d949e01f25e8ad"
+      url "https://github.com/enderkus/zabterm/releases/download/v0.1.2/zabterm-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f5b947ff7227f805659fea4a7eb035d67676ea8d37f5674cacad98602fcead08"
     end
   end
 
